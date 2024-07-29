@@ -10,8 +10,6 @@ mongoose.connect(mongoURL,
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        ssl: true,
-        sslValidate: true,
     })
 //Get the default connection 
 //Mongoose maintains a default connection object representing the MongoDB connection.
