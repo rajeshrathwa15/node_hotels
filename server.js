@@ -37,8 +37,7 @@ const db = require('./db')
 require('dotenv').config();
 
 const bodyParser = require('body-parser');
-// app.use(bodyParser.json()); //req.body
-app.use(express.json());
+app.use(bodyParser.json()); //req.body
 const PORT = process.env.PORT || 3000;
 
 const Person = require('./models/Person');
