@@ -1,7 +1,3 @@
-Here’s a `README.md` file for the Node Hotel application, which provides a comprehensive overview of the project, its setup, and usage instructions.
-
----
-
 # Node Hotel Application
 
 The Node Hotel application is a Node.js-based system designed to manage information related to staff (persons) and menu items for a hotel. Built using the Express.js framework and MongoDB for the database, this application provides endpoints to handle CRUD (Create, Read, Update, Delete) operations for both persons and menu items.
@@ -153,7 +149,3 @@ To set up the Node Hotel application, follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify this template as needed to better suit your project specifics or to include additional details.
